@@ -1,0 +1,12 @@
+body{
+	background-color: #eee;
+}
+h1{
+	text-align: center;
+	background-color: white;
+}
+.customdiv{
+	background: #bbb;
+	border: 1px solid grey;
+	margin: 2px;
+}
