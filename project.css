@@ -5,9 +5,10 @@ body{
 }
 h1{
 	text-align: center;
-	background-color: white;
+	background: linear-gradient(to right,#fff,#000,#000,#fff);
 	font-weight: bold;
 	font-family: Algerian;
+	color: white;
 }
 .customdiv1{
 	background: #000;
