@@ -1,12 +1,26 @@
 body{
-	background-color: #eee;
+	background-image: url('Chess.jpg');
+	background-attachment: fixed;
+	background-size: cover;
 }
 h1{
 	text-align: center;
 	background-color: white;
+	font-weight: bold;
+	font-family: Algerian;
 }
-.customdiv{
-	background: #bbb;
+.customdiv1{
+	background: #000;
+	font-family: Algerian;
+	font-size: 23px;
+	color:white;
 	border: 1px solid grey;
-	margin: 2px;
+	margin: 10px;
+}
+.customdiv2{
+	background: #fff;
+	font-family: Algerian;
+	font-size: 23px;
+	border: 1px solid grey;
+	margin: 10px;
 }
