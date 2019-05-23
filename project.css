@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
 body{
 	background-image: url('Chess.jpg');
 	background-attachment: fixed;
@@ -24,4 +29,56 @@ h1{
 	font-size: 23px;
 	border: 1px solid black;
 	margin: 10px;
+}
+.header{
+	background: white;
+}
+.extra{
+	height:200px;
+}
+.first_page{
+	color: white;
+	width: 100%;
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.tm-image{
+	float: left;
+}
+.tm-nav{
+	float: right;
+	background-color: black; 
+}
+.tm-nav ul{
+	margin-bottom: 0px;
+}
+.tm-nav ul li {
+	display: inline-block;
+	font-size: 30px;
+}
+.tm-nav ul li a{
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	color: white;
+	line-height: 160px;
+}
+.tm-nav ul li a:hover{
+	color: #3e99ff;
+}
+.contacts{
+	background-color: white;
+	color: black;
+	font-family: Algerian;
+	font-size: 30px;
+}
+.contacts-image{
+	padding: 20px;
 }
