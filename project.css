@@ -33,9 +33,6 @@ h1{
 .header{
 	background: white;
 }
-.extra{
-	height:200px;
-}
 .first_page{
 	color: white;
 	width: 100%;
@@ -74,6 +71,7 @@ h1{
 	color: #3e99ff;
 }
 .contacts{
+	width: 100%;
 	background-color: white;
 	color: black;
 	font-family: Algerian;
@@ -81,4 +79,10 @@ h1{
 }
 .contacts-image{
 	padding: 20px;
+}
+.extra{
+	height:200px;
+}
+.backwhite{
+	background-color: white;
 }
